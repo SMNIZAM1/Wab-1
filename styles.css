@@ -1,0 +1,259 @@
+/* Navber */
+nav{
+    background-color: rgb(3, 26, 87);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600px;
+    font-variant:small-caps;
+    /* color: rgb(248, 134, 3); */
+}
+nav a:hover{
+    /* color: rgb(249, 249, 252); */
+    /* background-color: rgb(148, 6, 25); */
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+input{
+    height: 32px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+/* Hero section styles */
+.hero{
+    height: 70vh;
+    background: url('https://meritcro.com/wp-content/uploads/2022/11/MERIT-Home-Page-General-Header-Image-14Nov2022.jpg') no-repeat center center/cover;
+    /* background-color: rgb(4, 17, 63); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1{
+    font-size: 70px;
+    margin: 5px;
+    color: gradian;
+    taxt
+}
+.hero p{
+    font-size: 25px;
+    margin: 45px;
+}
+.hero-content{
+    color: aliceblue;
+}
+header .btn{
+    background-color: rgb(196, 91, 5);
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+}
+header .btn:hover{
+    background-color: rgb(3, 42, 87);
+    color: rgb(235, 126, 23);
+}
+/* About Section */
+.about{
+    margin-top: 50px;
+}
+.about-header{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(5, 37, 100);
+    font-family:Playball ;
+}
+.about-header:hover{
+    color: rgb(197, 7, 7);
+}
+.about-description{
+    font-size: 20px;
+    color: dimgrey;
+    font-family: Roboto Condensed;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* input section */
+
+.input-header{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(5, 37, 100);
+    font-family: Playball ;
+}
+.input-header:hover{
+    color: rgb(197, 7, 7);
+}
+.input-content{
+    width:450px;
+    margin: 0px auto;
+}
+.name{
+    font-size: 25px;
+}
+.name label{
+    font-weight: 1000;
+}
+.name input{
+    width: 300px;
+    height: 30px;
+    border: 4px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;
+    margin: 5px;
+}
+.email{
+    font-size: 25px;
+}
+.email label{
+    font-weight: 1000;
+}
+.email input{
+    width: 300px;
+    height: 30px;
+    border: 4px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;
+    margin: 5px;
+}
+.message{
+    font-size: 25px;
+}
+.message label{
+    font-weight: 1000;
+}
+.message textarea{
+    width: 385px;
+    height: 60px;
+    border: 4px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+/* Gallery */
+.gallery-header{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(5, 37, 100);
+    font-family:Playball ;
+}
+.gallery-header:hover{
+    color: rgb(197, 7, 7);
+}
+.gallery-content{ */
+    /* background-color: rgb(248, 134, 3); */
+    /* padding: 5px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+.gallery-content-one{
+    padding: 5px;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+}
+.gallery-content-tow{
+    padding: 5px;
+    display: flex;
+    justify-content: center; 
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0%;
+    background: linear-gradient(to right, #00093c, #2b0b0b );
+    color: #fff;
+    padding: 100px 0px 30px ;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Roboto Condensed;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+.col p,h4{
+    width: fit-content;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.col h4:hover{
+    color: rgb(235, 126, 23) ;
+}
+.gmail-id{
+     width: fit-content;
+     border-bottom: 1px solid #ccc;
+     margin: 20px 0;
+}
+.gmail-id:hover{
+    color: rgb(235, 126, 23);
+}
+ul{
+    padding: 0%;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+ul li a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+    
+ul li a:hover{
+    color: rgb(235, 126, 23);
+
+}
