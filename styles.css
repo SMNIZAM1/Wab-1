@@ -176,6 +176,7 @@ header .btn:hover{
     /* justify-content: center; */
     /* justify-items: center; */
 }
+
 .gallery-content-one{
     padding: 5px;
     display: flex;
@@ -187,7 +188,9 @@ header .btn:hover{
     display: flex;
     justify-content: center; 
 }
-
+.gallery-content img:hover{
+    scale: 120%;
+}
 /* Footer */
 footer{
     width: 100%;
